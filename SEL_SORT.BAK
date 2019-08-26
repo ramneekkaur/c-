@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<conio.h>
+#define MAX 50
+void selection(int x[],int n)
+{
+int i,j,large,pos,c=0;
+for(i=n-1;i>0;i--)
+{
+  large=x[0];
+  pos=0;
+  for(j=1;j<=i;j++)
+  {
+  c++;
+    if(x[j]>large)
+    {
+      large=x[j];
+      pos=j;
+    }
+  }
+  x[pos]=x[i];
+  x[i]=large;
+}
+printf("\nNumber of comparisons required = %d",c);
+}
+void main()
+{
+  int x[MAX],n,i;
+  clrscr();
+  printf("\nEnter size of array");
+  scanf("%d",&n);
+  printf("\nenter the elements");
+  for(i=0;i<n;i++)
+  {
+    printf("\nElement %d : ",i+1);
+    scanf("%d",&x[i]);
+  }
+  selection(x,n);
+  printf("\nSorted list is : \n");
+  for(i=0;i<n;i++)
+  { printf("\n %d\n",x[i]); }
+getch();
+}
+

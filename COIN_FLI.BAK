@@ -1,0 +1,38 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ int T,G,I,N,Q,i,j,A[];
+ clrscr();
+ cin>>T;
+ for(i=0;i<T;i++)
+ {
+  cin>>G;
+  for(i=0;i<G;i++)
+  {
+   cin>>I;
+   cin>>N;
+   cin>>Q;
+
+
+
+    for(i=0;i<N;i++)
+    {
+     if(I==1)
+     {
+      A[i]=H;
+     }
+     else{
+     A[i]=T;
+     }
+    }
+
+    for(i=0;i<5;i++)
+    {
+
+
+
+
+  }
+ }

@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+cout<<"Enter name:Ramneek\n";
+cout<<"Enter roll number:15\n";
+cout<<"Enter marks of subject 1:99\n";
+cout<<"Enter marks of subject 2:88\n";
+cout<<"Enter marks of subject 3:77\n";
+cout<<"Enter marks of subject 4:66\n";
+cout<<"Enter marks of subject 5:99\n";
+//cout<<"Total guests:1\n";
+cout<"Percentage marks:85.800003\n";
+//cout<<"Enter name:Somya\n";
+//cout<<"Account Type is:Saving\n";
+//cout<<"Enter ID:70\n";
+//cout<<"Total guests:2\n";
+//cout<<"Enter new entry(y or n):";
+//cout<<"Withdraw amount is:140\n";
+//cout<<"Updated balance is:26960\n";
+getch();
+}
